@@ -24,8 +24,8 @@ impl ContentLine {
 
 #[derive(Debug, PartialEq, Eq, Clone)]
 pub struct Param {
-    name: String,
-    values: Vec<String>, // assert that there is at least one value
+    pub name: String,
+    pub values: Vec<String>, // assert that there is at least one value
 }
 
 impl Param {
